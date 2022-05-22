@@ -1,0 +1,31 @@
+form {
+  position: absolute;
+  top: 70px;
+  z-index: 10px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.searh-bar:focus {
+  outline: none;
+}
+
+.searh-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.searh-bar input {
+  border-radius: 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 3px;
+  height: 48px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.searh-bar input::placeholder {
+  padding-left: 20px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}

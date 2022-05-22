@@ -1,0 +1,167 @@
+.contents {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+/* main-book start */
+
+.title {
+  display: block;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.main-book {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.main-book__thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 130px;
+  height: 200px;
+  background-color: antiquewhite;
+  margin-right: 20px;
+}
+
+.main-book__thumb > img {
+  height: 100%;
+}
+
+.main-book__content span {
+  display: block;
+}
+
+.main-book__content span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.main-book__content span:nth-child(2) {
+  opacity: 0.4;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.fa-star {
+  color: var(--yellow);
+  margin-bottom: 20px;
+}
+
+.main-book__btn {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+}
+
+.nm {
+  padding: 10px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
+.bm {
+  width: 40px;
+  height: 40px;
+  background-color: var(--yellow);
+  padding: 6px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.big {
+  width: 130px;
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+}
+
+/* main-book end */
+
+/* top adv start */
+
+.top-adv {
+  margin-bottom: 10px;
+}
+.top-adv__list {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-adv__list__column {
+  margin-right: 20px;
+}
+
+.top-adv__thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 90px;
+  height: 130px;
+  background-color: palegreen;
+  margin-bottom: 10px;
+}
+
+.top-adv__thumb > img {
+  height: 100%;
+}
+
+/* top adv end */
+
+/* popular start */
+
+.popular__column {
+  display: flex;
+  flex-direction: row;
+}
+
+.popular__Contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular__thumb {
+  position: relative;
+  overflow: hidden;
+  background-color: aquamarine;
+  width: 130px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 25px;
+}
+.popular__thumb > img {
+  position: relative;
+  right: 50px;
+  height: 100%;
+}
+
+.popular__Contents span:first-child {
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 23px;
+  width: 200px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.popular__Contents span:last-child {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  width: 200px;
+  line-height: 20px;
+}
